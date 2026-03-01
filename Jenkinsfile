@@ -19,7 +19,7 @@ pipeline {
 
         stage('SonarQube Analysis') {
             steps {
-                withSonarQubeEnv('zeinebferchichi') {
+                withSonarQubeEnv('Zeineb Ferchichi') {
                     sh 'mvn sonar:sonar'
                 }
             }
